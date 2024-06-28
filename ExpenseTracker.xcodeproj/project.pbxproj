@@ -51,6 +51,9 @@
 		046A2AA22C23319900872C64 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				04BFDA7F2C2D36FC00E7644D /* ViewController */,
+				04BFDA7E2C2D36F500E7644D /* ViewModel */,
+				04BFDA7D2C2D36ED00E7644D /* Models */,
 				046A2AA32C23319900872C64 /* ExpenseTrackerApp.swift */,
 				046A2AA52C23319900872C64 /* ContentView.swift */,
 				046A2AA72C23319B00872C64 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				046A2AAA2C23319B00872C64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04BFDA7D2C2D36ED00E7644D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04BFDA7E2C2D36F500E7644D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04BFDA7F2C2D36FC00E7644D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
