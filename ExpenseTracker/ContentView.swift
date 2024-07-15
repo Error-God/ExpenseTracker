@@ -183,6 +183,7 @@ struct ContentView: View {
                     .padding(.horizontal)
                 Spacer()
                 Button("Save") {
+
                     // Validate amount before saving
                     isAmountValid = isNumber(amount: amount)
                     if isAmountValid {
@@ -253,9 +254,7 @@ struct ContentView: View {
     }
     
     var expenseActions: some View{
-        return VStack{
-            
-            
+        return VStack{           
         }
         
     }
